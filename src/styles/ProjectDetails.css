@@ -1,0 +1,140 @@
+
+
+.project-details {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #4f46e5, #c026d3, #ff5a1f);
+  padding-bottom: 60px;
+}
+
+/* Header */
+
+.project-header {
+  text-align: center;
+  color: white;
+  padding: 80px 20px 60px;
+}
+
+.project-header h1 {
+  font-size: 3.5rem;
+  font-weight: 800;
+}
+
+/* Main Content */
+
+.project-content {
+  width: 85%;
+  max-width: 1100px;
+  margin: auto;
+}
+
+/* Cards */
+
+.project-section {
+  background: white;
+  border-radius: 18px;
+  padding: 35px;
+  margin-bottom: 30px;
+  box-shadow: 0 15px 35px rgba(0,0,0,.15);
+}
+
+.project-section h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #111827;
+}
+
+.project-section p,
+.project-section li {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: #444;
+}
+
+/* Technology Badges */
+
+.tech-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.tech-list span {
+  background: linear-gradient(135deg, #4f46e5, #c026d3);
+  color: white;
+  padding: 10px 20px;
+  border-radius: 30px;
+  font-weight: 600;
+}
+
+/* Screenshots */
+
+.project-images {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px,1fr));
+  gap: 20px;
+}
+
+.project-images img {
+  width: 100%;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0,0,0,.15);
+  transition: .3s;
+}
+
+.project-images img:hover {
+  transform: scale(1.04);
+}
+
+/* Buttons */
+
+.project-buttons {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.project-buttons a,
+.back-btn {
+  padding: 14px 32px;
+  text-decoration: none;
+  border-radius: 10px;
+  font-weight: 700;
+  transition: .3s;
+}
+
+/* GitHub Button */
+
+.github-btn {
+  background: white;
+  color: #6d28d9;
+}
+
+.github-btn:hover {
+  background: #f5f5f5;
+}
+
+/* Live Demo Button */
+
+.demo-btn {
+  border: 2px solid white;
+  color: white;
+}
+
+.demo-btn:hover {
+  background: white;
+  color: #6d28d9;
+}
+
+/* Back Button */
+
+.back-btn {
+  display: inline-block;
+  margin-top: 40px;
+  background: linear-gradient(135deg, #4f46e5, #c026d3);
+  color: white;
+}
+
+.back-btn:hover {
+  transform: translateY(-3px);
+}

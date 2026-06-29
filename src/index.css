@@ -1,0 +1,166 @@
+/* ==========================
+   Google Font
+========================== */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+
+/* ==========================
+   Global Reset
+========================== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* ==========================
+   HTML
+========================== */
+html {
+  scroll-behavior: smooth;
+}
+
+/* ==========================
+   Body
+========================== */
+body {
+  font-family: "Poppins", sans-serif;
+  background: #ffffff;
+  color: #111827;
+  line-height: 1.6;
+  overflow-x: hidden;
+}
+
+/* ==========================
+   Root
+========================== */
+#root {
+  width: 100%;
+  min-height: 100vh;
+}
+
+/* ==========================
+   Typography
+========================== */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #111827;
+  font-weight: 700;
+}
+
+p {
+  color: #4b5563;
+}
+
+/* ==========================
+   Links
+========================== */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* ==========================
+   Images
+========================== */
+img {
+  display: block;
+  max-width: 100%;
+}
+
+/* ==========================
+   Buttons
+========================== */
+button {
+  font-family: inherit;
+  cursor: pointer;
+}
+
+/* ==========================
+   Forms
+========================== */
+input,
+textarea,
+select {
+  width: 100%;
+  font-family: inherit;
+  font-size: 16px;
+  padding: 14px 16px;
+  background: #ffffff;
+  color: #111827;
+  border: 1px solid #d1d5db;
+  border-radius: 10px;
+  outline: none;
+  transition: all 0.3s ease;
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+  border-color: #8a19d6;
+  box-shadow: 0 0 0 4px rgba(138, 25, 214, 0.12);
+}
+
+input::placeholder,
+textarea::placeholder {
+  color: #9ca3af;
+}
+
+/* ==========================
+   Lists
+========================== */
+ul {
+  list-style: none;
+}
+
+li {
+  line-height: 1.8;
+}
+
+/* ==========================
+   Selection
+========================== */
+::selection {
+  background: #8a19d6;
+  color: #ffffff;
+}
+
+/* ==========================
+   Scrollbar
+========================== */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f3f4f6;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #8a19d6;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #6d28d9;
+}
+
+/* ==========================
+   Responsive
+========================== */
+@media (max-width: 768px) {
+  body {
+    font-size: 15px;
+  }
+
+  h1 {
+    font-size: 36px;
+  }
+
+  h2 {
+    font-size: 30px;
+  }
+}
